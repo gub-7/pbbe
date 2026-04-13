@@ -32,13 +32,11 @@ _SHARED_PREAMBLE = (
     "You are generating one view of a multi-view orthographic reference sheet "
     "for 3D reconstruction. The following rules are CRITICAL:\n\n"
     "1. SAME OBJECT: The subject must be the EXACT same object as the input image. "
-    "Preserve every detail: shape, proportions, colors, textures, markings.\n"
-    "2. CONSISTENT POSE: The object does NOT move or rotate. Only the camera moves.\n"
-    "3. CENTERED: The subject must be perfectly centered in the frame.\n"
-    "4. FILL FRAME: The subject should occupy about 60-70 percent of the image.\n"
-    "5. PURE WHITE BACKGROUND: Uniform white (#FFFFFF). No shadows, no floor.\n"
-    "6. FLAT LIGHTING: Perfectly even diffuse lighting. No cast shadows or highlights.\n"
-    "7. NO PERSPECTIVE DISTORTION: Use near-orthographic projection.\n\n"
+    "Preserve every detail: shape, proportions, colors, textures, markings, and pose.\n"
+    "2. CENTERED: The subject must be perfectly centered in the frame.\n"
+    "3. FILL FRAME: The subject should occupy about 60-70 percent of the image.\n"
+    "4. FLAT LIGHTING: Perfectly even diffuse lighting. No cast shadows or highlights.\n"
+    "5. NO PERSPECTIVE DISTORTION: Use near-orthographic projection.\n\n"
 )
 
 VIEW_PROMPTS = {
