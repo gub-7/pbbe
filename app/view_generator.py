@@ -34,6 +34,7 @@ _SHARED_PREAMBLE = (
     "1. SAME OBJECT: The subject must be the EXACT same object as the input image. "
     "Preserve every detail: shape, proportions, colors, textures, markings, and pose.\n"
     "2. MAINTAIN BACKGROUND/ENVIRONMENT, image what the background environment of the subject would look like based on the input image and our desired camera position.\n"
+    "Pay extra care to maintain the dogs position/rotation/pose in this environment, it should be as if the subject is still as it is in the input and we take 3 simultaneous photos of it in that pose and spot.\n"
     "3. CENTERED: The subject must be perfectly centered in the frame.\n"
     "4. FILL FRAME: The subject should occupy about 60-70 percent of the image.\n"
     "5. FLAT LIGHTING: Perfectly even diffuse lighting. No cast shadows or highlights.\n"
